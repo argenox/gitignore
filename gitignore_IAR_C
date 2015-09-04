@@ -1,0 +1,36 @@
+###################################################
+# ARGENOX  http://www.argenox.com
+#
+# gitignore for IAR Embedded Workbench
+#
+# This file will make git ignore all the
+# files that are built at runtime, so that
+# you're tracking only the source and the project files
+#
+# Rename this file to .gitignore and
+# place it in your git repository
+###################################################
+
+# IAR Build Files
+*.cout
+*.pbi
+*.o
+*.pbd
+*.browse
+*.out
+
+# Binaries
+*.bin
+*.elf
+*.hex
+*.map
+
+# IAR Directories
+Debug/
+Release/
+settings/
+*.dep
+
+# Misc
+*.bak
+Backup*
