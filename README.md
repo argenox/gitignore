@@ -1,0 +1,2 @@
+# gitignore
+Useful GitIgnore Files
